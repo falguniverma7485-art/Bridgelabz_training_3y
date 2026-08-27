@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complete CSS Layout</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            display: flex;
+            padding: 30px;
+            gap: 30px;
+        }
+
+        main {
+            flex: 3;
+            background-color: white;
+            padding: 25px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #ddd;
+            padding: 25px;
+        }
+
+        .box {
+            padding: 20px;
+            margin: 20px 0;
+            border: 2px solid #aaa;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #222;
+            color: white;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Web Page</h1>
+        <p>A simple HTML and CSS layout</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <main>
+
+            <h2>Welcome</h2>
+
+            <p>
+                This page is created using HTML and CSS. It contains
+                different sections and a simple responsive layout.
+            </p>
+
+            <div class="box">
+                <h3>About This Page</h3>
+                <p>
+                    CSS is used here for colors, spacing, borders,
+                    layout and responsive design.
+                </p>
+
+                <button>Learn More</button>
+            </div>
+
+        </main>
+
+        <aside>
+
+            <h2>Quick Links</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Web Development</li>
+                <li>Projects</li>
+            </ul>
+
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>© 2026 My Web Page</p>
+    </footer>
+
+</body>
+</html>

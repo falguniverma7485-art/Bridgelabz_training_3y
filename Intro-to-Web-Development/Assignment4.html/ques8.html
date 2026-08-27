@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        .dashboard {
+            display: flex;
+            min-height: 80vh;
+        }
+
+        aside {
+            width: 200px;
+            background-color: #333;
+            padding: 20px;
+        }
+
+        aside a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 12px 0;
+        }
+
+        .content {
+            padding: 30px;
+            flex: 1;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            width: 200px;
+            border: 1px solid #aaa;
+        }
+
+        @media screen and (max-width: 700px) {
+            .dashboard {
+                flex-direction: column;
+            }
+
+            aside {
+                width: auto;
+            }
+
+            .cards {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Dashboard</h1>
+    </header>
+
+    <div class="dashboard">
+
+        <aside>
+            <a href="#">Dashboard</a>
+            <a href="#">Courses</a>
+            <a href="#">Assignments</a>
+            <a href="#">Profile</a>
+        </aside>
+
+        <div class="content">
+
+            <h2>Welcome Falguni!</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Courses</h3>
+                    <p>5 Active Courses</p>
+                </div>
+
+                <div class="card">
+                    <h3>Assignments</h3>
+                    <p>3 Pending</p>
+                </div>
+
+                <div class="card">
+                    <h3>Attendance</h3>
+                    <p>85%</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

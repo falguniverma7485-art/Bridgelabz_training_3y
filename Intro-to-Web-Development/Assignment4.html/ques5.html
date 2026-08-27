@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pricing Table</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .plans {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .plan {
+            background-color: white;
+            width: 250px;
+            padding: 25px;
+            border: 1px solid #aaa;
+            border-radius: 10px;
+        }
+
+        .popular {
+            border: 3px solid #333;
+            transform: scale(1.05);
+        }
+
+        .price {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            line-height: 2;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 700px) {
+            .plans {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Our Pricing Plans</h1>
+
+    <div class="plans">
+
+        <div class="plan">
+            <h2>Basic</h2>
+            <p class="price">₹199</p>
+            <p>per month</p>
+
+            <ul>
+                <li>5 Projects</li>
+                <li>10 GB Storage</li>
+                <li>Email Support</li>
+            </ul>
+
+            <button>Choose Plan</button>
+        </div>
+
+        <div class="plan popular">
+            <h2>Standard</h2>
+            <p class="price">₹399</p>
+            <p>per month</p>
+
+            <ul>
+                <li>15 Projects</li>
+                <li>50 GB Storage</li>
+                <li>Priority Support</li>
+            </ul>
+
+            <button>Choose Plan</button>
+        </div>
+
+        <div class="plan">
+            <h2>Premium</h2>
+            <p class="price">₹699</p>
+            <p>per month</p>
+
+            <ul>
+                <li>Unlimited Projects</li>
+                <li>100 GB Storage</li>
+                <li>24/7 Support</li>
+            </ul>
+
+            <button>Choose Plan</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

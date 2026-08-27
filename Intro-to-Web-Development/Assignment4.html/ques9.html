@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Newspaper</title>
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 20px;
+            background-color: #fafafa;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid black;
+            padding-bottom: 15px;
+        }
+
+        .news {
+            display: flex;
+            gap: 30px;
+            margin-top: 25px;
+        }
+
+        article {
+            width: 70%;
+        }
+
+        aside {
+            width: 30%;
+            border-left: 1px solid #aaa;
+            padding-left: 20px;
+        }
+
+        article h2 {
+            font-size: 25px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 30px;
+            border-top: 2px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 700px) {
+            .news {
+                flex-direction: column;
+            }
+
+            article, aside {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>THE DAILY NEWS</h1>
+        <p>Thursday, 27 August 2026</p>
+    </header>
+
+    <div class="news">
+
+        <article>
+
+            <h2>Technology is Changing Our Daily Life</h2>
+
+            <p>
+                Technology has become an important part of our daily life.
+                From education to communication, people use technology for
+                many different purposes.
+            </p>
+
+            <p>
+                New technologies are also helping students learn new skills
+                and explore different career opportunities.
+            </p>
+
+            <h2>Education News</h2>
+
+            <p>
+                Students are now using online resources along with their
+                regular classroom studies. This helps them learn at their
+                own pace.
+            </p>
+
+        </article>
+
+        <aside>
+
+            <h2>Quick News</h2>
+
+            <ul>
+                <li>New technology courses introduced.</li>
+                <li>Students participate in coding events.</li>
+                <li>New educational programs announced.</li>
+                <li>Web development is becoming popular.</li>
+            </ul>
+
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>© 2026 The Daily News</p>
+    </footer>
+
+</body>
+</html>
