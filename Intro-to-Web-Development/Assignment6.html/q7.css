@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f5f8;
+}
+
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3f51b5;
+    animation: loading 0.8s infinite ease-in-out;
+}
+
+.circle:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+.circle:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+@keyframes loading {
+
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
