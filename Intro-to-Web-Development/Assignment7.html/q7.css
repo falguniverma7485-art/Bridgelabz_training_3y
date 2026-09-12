@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #37474f;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 2.2rem;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+article {
+    max-width: 850px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+article h2 {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    color: #263238;
+    margin-bottom: 1em;
+}
+
+article h3 {
+    font-size: 1.4rem;
+    color: #455a64;
+    margin: 1.5em 0 0.8em;
+}
+
+article p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+/* Styling the mark element */
+mark {
+    background-color: #ffe082;
+    padding: 2px 5px;
+}
+
+/* Styling strong element */
+strong {
+    color: #1565c0;
+}
+
+/* Styling em element */
+em {
+    color: #00897b;
+}
+
+/* First-letter pseudo-element */
+article p:first-of-type::first-letter {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #e65100;
+    float: left;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+/* First-line pseudo-element */
+article p:first-of-type::first-line {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #37474f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

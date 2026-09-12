@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f7;
+    color: #263238;
+}
+
+header {
+    background-color: #00695c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 45px 7%;
+}
+
+/* Main box model demonstration */
+.box-model {
+    width: 320px;
+    margin: 20px auto 50px;
+    padding: 30px;
+    border: 12px solid #ff8f00;
+    background-color: #b2dfdb;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.content {
+    background-color: white;
+    padding: 25px;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.info-card {
+    width: 30%;
+    padding: 25px;
+    background-color: white;
+    border: 3px solid #80cbc4;
+    border-radius: 12px;
+    box-shadow: 0 5px 12px #ccc;
+}
+
+.info-card h2 {
+    margin-bottom: 12px;
+    color: #00695c;
+}
+
+.info-card p {
+    line-height: 1.6;
+}
+
+/* Comparing box-sizing */
+.sizing {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.default-box,
+.border-box {
+    width: 280px;
+    height: 160px;
+    padding: 30px;
+    border: 8px solid #3949ab;
+    text-align: center;
+    background-color: #e8eaf6;
+}
+
+.default-box {
+    box-sizing: content-box;
+}
+
+.border-box {
+    box-sizing: border-box;
+    border-color: #e65100;
+}
+
+.sizing h3 {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #00695c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 750px) {
+    .info,
+    .sizing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-card {
+        width: 85%;
+    }
+}
