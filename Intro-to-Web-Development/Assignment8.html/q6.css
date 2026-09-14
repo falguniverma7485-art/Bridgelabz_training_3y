@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.animation-box {
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+    background: #7e57c2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Moving animation */
+.move {
+    animation: moveBox 2s ease-in-out infinite alternate;
+}
+
+/* Bouncing animation */
+.bounce {
+    animation: bounceBox 1.2s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+
+/* Color changing animation */
+.change {
+    animation: colorBox 2s ease-in-out infinite alternate;
+    animation-delay: 0.6s;
+}
+
+@keyframes moveBox {
+    from {
+        transform: translateX(-40px);
+    }
+    to {
+        transform: translateX(40px);
+    }
+}
+
+@keyframes bounceBox {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-60px);
+    }
+}
+
+@keyframes colorBox {
+    from {
+        background: #7e57c2;
+    }
+    to {
+        background: #00897b;
+    }
+}
+
+footer {
+    background: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+        padding: 40px;
+    }
+}
