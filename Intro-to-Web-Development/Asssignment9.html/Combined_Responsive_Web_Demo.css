@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #00695c;
+    color: white;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.dashboard {
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.dashboard section {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ccc;
+    animation: fadeIn 1s ease-in;
+    transition: transform 0.3s ease;
+}
+
+.dashboard section:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard h2 {
+    color: #00695c;
+    margin-bottom: 20px;
+}
+
+.gallery-box {
+    grid-column: span 2;
+}
+
+.mini-gallery {
+    display: flex;
+    gap: 15px;
+}
+
+.mini-gallery img {
+    width: 32%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.mini-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.explanation p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.cheat-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #e0f2f1;
+    border-radius: 7px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    margin-top: auto;
+    background: #00695c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-box {
+        grid-column: span 1;
+    }
+
+    .mini-gallery {
+        flex-direction: column;
+    }
+
+    .mini-gallery img {
+        width: 100%;
+    }
+}

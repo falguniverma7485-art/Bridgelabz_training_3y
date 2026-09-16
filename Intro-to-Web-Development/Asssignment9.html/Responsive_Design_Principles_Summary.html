@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Principles</title>
+    <link rel="stylesheet" href="Responsive_Design_Principles_Summary.css">
+</head>
+<body>
+
+<header>
+    <h1>Responsive Design Principles</h1>
+    <p>Three important concepts</p>
+</header>
+
+<main class="principles">
+
+    <article>
+        <h2>Fluid Layouts</h2>
+
+        <p>
+            Fluid layouts use flexible sizes so content can adjust
+            to different screen widths.
+        </p>
+
+        <pre>width: 90%;</pre>
+    </article>
+
+    <article>
+        <h2>Flexible Media</h2>
+
+        <p>
+            Images and other media should resize according to
+            the available screen space.
+        </p>
+
+        <pre>img {
+    max-width: 100%;
+}</pre>
+    </article>
+
+    <article>
+        <h2>Breakpoints</h2>
+
+        <p>
+            Breakpoints allow a layout to change at specific
+            screen widths using media queries.
+        </p>
+
+        <pre>@media (max-width: 600px) {
+    ...
+}</pre>
+    </article>
+
+</main>
+
+<footer>
+    <p>Responsive Design Summary</p>
+</footer>
+
+</body>
+</html>

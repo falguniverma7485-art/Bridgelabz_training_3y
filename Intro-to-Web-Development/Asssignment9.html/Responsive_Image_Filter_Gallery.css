@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #263238;
+}
+
+header {
+    background: #263238;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.gallery {
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+}
+
+.image-card {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #ccc;
+}
+
+.image-card img {
+    width: 100%;
+    height: 220px;
+    display: block;
+    object-fit: cover;
+    transition: filter 0.5s ease;
+}
+
+/* Different filter for each image */
+.blur {
+    filter: blur(3px);
+}
+
+.gray {
+    filter: grayscale(100%);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.bright {
+    filter: brightness(150%);
+}
+
+.contrast {
+    filter: contrast(180%);
+}
+
+.hue {
+    filter: hue-rotate(120deg);
+}
+
+/* Remove filter on hover */
+.image-card:hover img {
+    filter: none;
+}
+
+figcaption {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background: #263238;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
