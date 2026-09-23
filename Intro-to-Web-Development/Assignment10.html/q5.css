@@ -1,0 +1,1 @@
+:root{--bs-primary:#6f42c1;--bs-font-sans-serif:'Poppins',sans-serif}body{font-family:var(--bs-font-sans-serif);background:#faf8ff}.theme-bg{background:#6f42c1}.theme-btn{background:#6f42c1;color:#fff}.theme-btn:hover{background:#56329a;color:#fff}.blog-card{border:0;box-shadow:0 8px 25px rgba(111,66,193,.1);transition:.3s}.blog-card:hover{transform:translateY(-5px)}
