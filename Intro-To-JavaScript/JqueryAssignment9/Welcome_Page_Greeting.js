@@ -1,0 +1,1 @@
+$(function(){let h=new Date().getHours(),g=h<12?"Good morning":h<17?"Good afternoon":"Good evening";$("#greeting").text(g+", welcome to Fernhill!");$("#change").click(function(){$("#greeting").text("Keep learning; every small effort counts.");});$("#toggle").click(function(){$("#welcome").toggle();});$("#greeting").click(function(){alert("Thanks for visiting Fernhill!");});});
