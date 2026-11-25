@@ -1,0 +1,53 @@
+{
+    "timetable": [
+        {
+            "id": 1,
+            "day": "Monday",
+            "subject": "Design and Analysis of Algorithms",
+            "faculty": "Dr. N. Tripathi",
+            "time": "09:00 AM - 10:00 AM"
+        },
+        {
+            "id": 2,
+            "day": "Monday",
+            "subject": "Database Management Systems",
+            "faculty": "Ms. R. Saini",
+            "time": "10:00 AM - 11:00 AM"
+        },
+        {
+            "id": 3,
+            "day": "Tuesday",
+            "subject": "Computer Networks",
+            "faculty": "Mr. A. Saxena",
+            "time": "09:00 AM - 10:00 AM"
+        },
+        {
+            "id": 4,
+            "day": "Tuesday",
+            "subject": "Java Programming",
+            "faculty": "Ms. P. Mathur",
+            "time": "11:00 AM - 12:00 PM"
+        },
+        {
+            "id": 5,
+            "day": "Wednesday",
+            "subject": "Operating Systems",
+            "faculty": "Dr. S. Bhatia",
+            "time": "10:00 AM - 11:00 AM"
+        },
+        {
+            "id": 6,
+            "day": "Thursday",
+            "subject": "Software Engineering",
+            "faculty": "Mr. K. Awasthi",
+            "time": "12:00 PM - 01:00 PM"
+        },
+        {
+            "id": 7,
+            "day": "Friday",
+            "subject": "Web Technology",
+            "faculty": "Ms. M. Arora",
+            "time": "09:00 AM - 10:00 AM"
+        }
+    ]
+}

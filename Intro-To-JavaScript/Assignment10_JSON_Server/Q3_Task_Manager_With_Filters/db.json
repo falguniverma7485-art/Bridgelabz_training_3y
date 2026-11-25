@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Update library catalogue",
+            "priority": "low",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "title": "Prepare sprint demo",
+            "priority": "high",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "title": "Review hostel maintenance form",
+            "priority": "medium",
+            "completed": true
+        },
+        {
+            "id": 4,
+            "title": "Check API response fields",
+            "priority": "high",
+            "completed": true
+        },
+        {
+            "id": 5,
+            "title": "Organise project screenshots",
+            "priority": "low",
+            "completed": false
+        },
+        {
+            "id": 6,
+            "title": "Submit lab record",
+            "priority": "medium",
+            "completed": false
+        }
+    ]
+}

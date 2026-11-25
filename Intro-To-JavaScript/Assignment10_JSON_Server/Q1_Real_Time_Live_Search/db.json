@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Copper Water Bottle",
+            "price": 349,
+            "image": "https://placehold.co/120x90?text=Copper+Bottle"
+        },
+        {
+            "id": 2,
+            "name": "Canvas Laptop Sleeve",
+            "price": 699,
+            "image": "https://placehold.co/120x90?text=Laptop+Sleeve"
+        },
+        {
+            "id": 3,
+            "name": "Bamboo Desk Organizer",
+            "price": 499,
+            "image": "https://placehold.co/120x90?text=Desk+Organizer"
+        },
+        {
+            "id": 4,
+            "name": "Terracotta Planter Set",
+            "price": 579,
+            "image": "https://placehold.co/120x90?text=Planter+Set"
+        },
+        {
+            "id": 5,
+            "name": "Woolen Table Runner",
+            "price": 849,
+            "image": "https://placehold.co/120x90?text=Table+Runner"
+        },
+        {
+            "id": 6,
+            "name": "Brass Bookmark",
+            "price": 199,
+            "image": "https://placehold.co/120x90?text=Brass+Bookmark"
+        }
+    ]
+}

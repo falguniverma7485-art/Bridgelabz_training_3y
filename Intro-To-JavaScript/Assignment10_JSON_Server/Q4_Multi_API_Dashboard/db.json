@@ -1,0 +1,78 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Ritvik Bansal"
+        },
+        {
+            "id": 2,
+            "name": "Anvi Tandon"
+        },
+        {
+            "id": 3,
+            "name": "Yugant Suri"
+        },
+        {
+            "id": 4,
+            "name": "Prisha Dutt"
+        },
+        {
+            "id": 5,
+            "name": "Kairav Goyal"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "item": "Desk lamp",
+            "amount": 1250
+        },
+        {
+            "id": 2,
+            "item": "Notebook set",
+            "amount": 340
+        },
+        {
+            "id": 3,
+            "item": "Travel mug",
+            "amount": 560
+        },
+        {
+            "id": 4,
+            "item": "Book stand",
+            "amount": 780
+        },
+        {
+            "id": 5,
+            "item": "Pen holder",
+            "amount": 290
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Foldable Book Stand",
+            "price": 780
+        },
+        {
+            "id": 2,
+            "name": "Ceramic Desk Lamp",
+            "price": 1250
+        },
+        {
+            "id": 3,
+            "name": "Grid Notebook",
+            "price": 170
+        },
+        {
+            "id": 4,
+            "name": "Steel Travel Mug",
+            "price": 560
+        },
+        {
+            "id": 5,
+            "name": "Wooden Pen Holder",
+            "price": 290
+        }
+    ]
+}
